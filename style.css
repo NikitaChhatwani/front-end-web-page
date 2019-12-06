@@ -1,0 +1,92 @@
+
+.container{
+background-color:F9F9DE;
+height:4500px;
+width:100%;
+}
+.header{
+background-image:url("pattern.png"); 
+background-repeat: no-repeat;
+background-size: cover;
+opacity:0.9;
+height:250px;
+width:100%;
+}
+.header h1{
+font-family:Vivaldi;
+color:brown;
+position:relative;
+top:20px;
+font-size:56px;
+text-shadow:1px 2px grey;
+}
+.header h2{
+font-family:Arial;
+color:brown;
+position:relative;
+bottom:27px;
+left:27px;
+letter-spacing:5px;
+text-shadow:1px 2px grey;
+}
+.header ul li{
+display:inline;
+list-style:none;
+position:relative;
+left:1130px;
+bottom:135px;
+margin-right:5px;
+}
+.menu{
+width:100%;
+background-color:white;
+opacity:0.4;
+height:50px;
+position:relative;
+bottom:100px;
+}
+.menu ul li{
+position:relative;
+top:15px;
+display:inline;
+color:black;
+margin:60px;
+font-size:16px;
+font-family:Arial;
+}
+.menu a{
+ color:black;
+ text-decoration: none;
+}
+.menu a:hover {
+  color:red;
+}
+#content{
+height:3900px;
+width:100%;
+position:relative;
+bottom:30px;
+}
+#content a:hover{
+opacity:0.5;
+}
+.footer pre{
+font-family:Arial;
+font-size:16px;
+color:9B9090;
+line-height:20px;
+background-color:F9F9DE;
+border:none;
+}
+.arrow {
+margin-top: 40px;
+
+}
+
+.arrow ul li {
+list-style:none;
+display: inline;
+position:relative;
+bottom:5px;
+}
+
